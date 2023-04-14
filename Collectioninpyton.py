@@ -16,3 +16,4 @@ from collections import namedtuple
 a =namedtuple("courses","name , technology")
 s=a._make(["data science","python"])
 print(s)
+print(s)
