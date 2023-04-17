@@ -30,3 +30,23 @@ c.extend([7,8,9,10])
 print(c)
 c.insert(1,11)
 print(c)
+#Removing elements in an array
+#pop() Used when we want to remove an element and return it
+#remove() is used to remove an element with a specific value without returning it
+print(c.pop())
+c.remove(11)
+print(c)
+#Array Concardination
+#Array Concardination can be done using + symbol
+import array as arr
+a=arr.array('d',[1.1,2.2,3.3,4.4,5.5])
+b=arr.array('d',[6.1,7.2,8.3,9.4,10.5])
+c=arr.array('d')
+c=a+b
+print("Array c is ",c)
+#Slicing an Array
+#An Array can be sliced using the : symbol. This returns a range of elements that we have specified by the 
+#index numbers
+import array as arr
+a=arr.array('d',[1.1,2.2,3.3,4.4])
+print(a[0:3])
