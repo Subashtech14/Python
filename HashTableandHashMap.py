@@ -7,3 +7,24 @@ print(type(my_dict))
 #Using dict()
 new_dict=dict(Dave='001',Subash='002')
 print(new_dict)
+#Nested dictionaries
+#Nested dictionaries are basically dictionaries that lie within other dictionaries
+emp_details={"subash":{"Devil":{"ID":"444","Salery":"Infinity"}}}
+print(emp_details)
+#add update and removing elements in dictionary or hash table
+#accessing using key value
+my_dict={'subash':'001','devil':'002','God':'005'}
+print(my_dict['subash'])
+print(my_dict.keys())
+print(my_dict.values())
+print(my_dict.get('subash'))
+#accessing using for loop
+print("For loop for fetching the keys")
+for x in my_dict:
+    print(x)
+print("For loop for fetching the values")
+for x in my_dict.values():
+    print(x)
+print("Get both key and values")
+for x,y in my_dict.items():
+    print(x," ",y)
