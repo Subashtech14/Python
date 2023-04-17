@@ -50,3 +50,15 @@ print("Array c is ",c)
 import array as arr
 a=arr.array('d',[1.1,2.2,3.3,4.4])
 print(a[0:3])
+print(a[0:-2])
+print(a[::-1])
+#Looping through an Array
+#for Iterates over the items of an array specified number of items
+#While Iterates over the elements until a certain condition is met
+for x in a:
+    print(x)
+print("While Loop ")
+temp=0
+while temp < len(a):
+    print(a[temp])
+    temp=temp+1
