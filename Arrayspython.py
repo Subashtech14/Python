@@ -62,3 +62,4 @@ temp=0
 while temp < len(a):
     print(a[temp])
     temp=temp+1
+#Arrays Completed
