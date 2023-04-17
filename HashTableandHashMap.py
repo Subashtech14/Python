@@ -28,3 +28,14 @@ for x in my_dict.values():
 print("Get both key and values")
 for x,y in my_dict.items():
     print(x," ",y)
+#Updating the dictionary
+my_dict["subash"]="4444"
+my_dict["Devil"]="141414"
+print(my_dict)
+print(my_dict.pop('Devil'))
+print(my_dict)
+#it will delete the last item
+print(my_dict.popitem())
+#using delete
+del my_dict['subash']
+print(my_dict)
