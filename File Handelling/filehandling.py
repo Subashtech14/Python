@@ -23,4 +23,26 @@ file.close()
 file=open("E:\\Python\\Devil.txt","r")
 print(file.readlines())
 file.close()
+print("Looping through a File \n")
 #Loop over a file Object
+file=open("E:\\Python\\Devil.txt","r")
+for line in file:
+    print(line)
+file.close()
+#writing to a file
+#"a" Append -Will append to the end of the file
+#"w" Write will overwite any existing file
+file=open("E:\\Python\\Devil.txt","a")
+file.write("I have become the devil")
+file.close()
+#Creating a file
+#"x" - Create  - will create a file,returns an error if the file exist
+#"a" Append - Will create a file if it doesn't exist
+#"w" Write will create a file if it doesn't exist
+#Deleting a File
+import os
+if os.path.exists("Devil.txt") or os.path.isdir("kill"):
+    os.remove("Devil.txt")
+    os.rmdir("kill")
+else:
+    print("The File Doesn't exist")
