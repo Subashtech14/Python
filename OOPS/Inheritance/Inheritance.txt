@@ -1,0 +1,11 @@
+#Types of Inheritance
+#*single Inheritance
+#when the inheritance involves one child class and one parent class
+#*Multiple Inheritance
+#It involves more than one parent class
+#*Multilevel Inheritance
+#The child class acts as a parent class for another child class
+#*Hirerachical Inheritance
+#more than one type of inheritance
+#*Hybrid Inheritance
+#Combine more than one type of inheritance

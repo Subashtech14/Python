@@ -20,3 +20,19 @@ honda.cc=1500
 honda.price_inc()
 # print(help(honda))
 print(honda.yearm)
+#init()
+#__init__() function is called automatically every time the class is used to create an object.
+class Parent:
+    def __init__(self,fname,fage):
+        self.name=fname
+        self.age=fage
+    def view(self):
+        print(self.__dict__)
+class child(Parent):
+    def __init__(self, fname, fage):
+        Parent.__init__(self,fname, fage)
+        self.lastname="Subash"
+    def view(self):
+        print(self.age,self.lastname,self.name)
+ob=child(27, 'Devil')
+ob.view()
